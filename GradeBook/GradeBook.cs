@@ -9,6 +9,7 @@ namespace GradeBookProject
 {
     public class GradeBook
     {
+        public event NameChangedDelegate NameChanged;
         private string _name;
 
         public string Name
@@ -21,6 +22,14 @@ namespace GradeBookProject
             {
                 if (!string.IsNullOrWhiteSpace(value))
                 {
+                    if (NameChanged != null)
+                    {
+                        NameChangedEventArgs args = new NameChangedEventArgs();
+                        args.OldName = _name;
+                        args.NewName = value;
+                        OnNameChanged(this , args);
+                    }
+             
                     _name = value;
                 }
             }
@@ -65,6 +74,14 @@ namespace GradeBookProject
             result.AverageGrade = sum / grades.Count;
 
             return result;
+        }
+
+        private void OnNameChanged(object sender, NameChangedEventArgs args)
+        {
+            GradeBook book = (GradeBook)sender;
+            GradeStatistics stats = book.CalcualteStatistics();
+
+            Console.WriteLine("Old: {0}, New: {1}, AverageGrade: {2}", args.OldName, args.NewName, stats.AverageGrade);
         }
     }
 }

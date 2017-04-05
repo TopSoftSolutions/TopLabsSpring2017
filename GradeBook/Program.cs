@@ -12,15 +12,20 @@ namespace GradeBookProject
             gb1.AddGrade(91);
             gb1.AddGrade(89.5f);
             gb1.AddGrade(75);
+            gb1.NameChanged += OnNameChanged;
+            gb1.NameChanged += OnNameChanged2;
+            gb1.Name = "Petros";
 
-            GradeStatistics stats = gb1.CalcualteStatistics();
-            PrintValue("Average Grade", stats.AverageGrade);
-            PrintValue(nameof(stats.MaxGrade), stats.MaxGrade);
-           
+            GradeBook gb2 = new GradeBook(5);
+            gb2.Name = "Mukuchik";
+            gb2.Type = GradeBookType.PhD;
+            gb2.AddGrade(100);
+            gb2.AddGrade(100);
+            gb2.AddGrade(100);
+            gb2.NameChanged += OnNameChanged;
+            gb2.NameChanged += OnNameChanged2;
+            gb2.Name = "Petrosik";
 
-            gb1.Name = null;
-
-            Console.WriteLine(gb1.Name.ToUpper());
             Console.Read();
         }
 
@@ -33,6 +38,19 @@ namespace GradeBookProject
         public static void PrintValue(string variableName, int value)
         {
             Console.WriteLine("{0}: {1}", variableName, value);
+        }
+
+        public static void OnNameChanged(object sender, NameChangedEventArgs args)
+        {
+            GradeBook book = (GradeBook)sender;
+            GradeStatistics stats = book.CalcualteStatistics();
+
+            Console.WriteLine("Old: {0}, New: {1}, AverageGrade: {2}", args.OldName, args.NewName, stats.AverageGrade);
+        }
+
+        public static void OnNameChanged2(object sender, NameChangedEventArgs args)
+        {
+            Console.WriteLine($"V2 Old: {args.OldName}, New: {args.NewName}");
         }
 
     }
