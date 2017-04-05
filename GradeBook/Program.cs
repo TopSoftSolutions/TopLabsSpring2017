@@ -7,7 +7,7 @@ namespace GradeBookProject
         static void Main(string[] args)
         {
             GradeBook gb1 = new GradeBook(5);
-            gb1.Name = "Mukuch";
+            gb1.Name = "Petros";
             gb1.Type = GradeBookType.PhD;
             gb1.AddGrade(91);
             gb1.AddGrade(89.5f);
