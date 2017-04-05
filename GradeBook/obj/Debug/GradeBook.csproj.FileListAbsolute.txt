@@ -1,0 +1,6 @@
+c:\users\tigran\documents\visual studio 2017\Projects\GradeBook\GradeBook\bin\Debug\GradeBook.exe.config
+c:\users\tigran\documents\visual studio 2017\Projects\GradeBook\GradeBook\bin\Debug\GradeBook.exe
+c:\users\tigran\documents\visual studio 2017\Projects\GradeBook\GradeBook\bin\Debug\GradeBook.pdb
+c:\users\tigran\documents\visual studio 2017\Projects\GradeBook\GradeBook\obj\Debug\GradeBook.exe
+c:\users\tigran\documents\visual studio 2017\Projects\GradeBook\GradeBook\obj\Debug\GradeBook.pdb
+C:\Users\Tigran\documents\visual studio 2017\Projects\GradeBook\GradeBook\obj\Debug\GradeBook.csprojResolveAssemblyReference.cache

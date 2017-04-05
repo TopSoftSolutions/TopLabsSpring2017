@@ -1,0 +1,15 @@
+C:\Users\Tigran\documents\visual studio 2017\Projects\GradeBook\GradeBookTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Tigran\documents\visual studio 2017\Projects\GradeBook\GradeBookTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Tigran\documents\visual studio 2017\Projects\GradeBook\GradeBookTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Tigran\documents\visual studio 2017\Projects\GradeBook\GradeBookTests\bin\Debug\GradeBookTests.dll
+C:\Users\Tigran\documents\visual studio 2017\Projects\GradeBook\GradeBookTests\bin\Debug\GradeBookTests.pdb
+C:\Users\Tigran\documents\visual studio 2017\Projects\GradeBook\GradeBookTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Tigran\documents\visual studio 2017\Projects\GradeBook\GradeBookTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Tigran\documents\visual studio 2017\Projects\GradeBook\GradeBookTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Tigran\documents\visual studio 2017\Projects\GradeBook\GradeBookTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Tigran\documents\visual studio 2017\Projects\GradeBook\GradeBookTests\obj\Debug\GradeBookTests.csprojResolveAssemblyReference.cache
+C:\Users\Tigran\documents\visual studio 2017\Projects\GradeBook\GradeBookTests\obj\Debug\GradeBookTests.dll
+C:\Users\Tigran\documents\visual studio 2017\Projects\GradeBook\GradeBookTests\obj\Debug\GradeBookTests.pdb
+C:\Users\Tigran\documents\visual studio 2017\Projects\GradeBook\GradeBookTests\bin\Debug\GradeBook.exe
+C:\Users\Tigran\documents\visual studio 2017\Projects\GradeBook\GradeBookTests\bin\Debug\GradeBook.pdb
+C:\Users\Tigran\documents\visual studio 2017\Projects\GradeBook\GradeBookTests\bin\Debug\GradeBook.exe.config
