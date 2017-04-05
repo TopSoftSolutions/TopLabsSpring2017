@@ -4,3 +4,9 @@ c:\users\tigran\documents\visual studio 2017\Projects\GradeBook\GradeBook\bin\De
 c:\users\tigran\documents\visual studio 2017\Projects\GradeBook\GradeBook\obj\Debug\GradeBook.exe
 c:\users\tigran\documents\visual studio 2017\Projects\GradeBook\GradeBook\obj\Debug\GradeBook.pdb
 C:\Users\Tigran\documents\visual studio 2017\Projects\GradeBook\GradeBook\obj\Debug\GradeBook.csprojResolveAssemblyReference.cache
+C:\Users\Awet\Source\Repos\TopLabsSpring2017\GradeBook\bin\Debug\GradeBook.exe.config
+C:\Users\Awet\Source\Repos\TopLabsSpring2017\GradeBook\bin\Debug\GradeBook.exe
+C:\Users\Awet\Source\Repos\TopLabsSpring2017\GradeBook\bin\Debug\GradeBook.pdb
+C:\Users\Awet\Source\Repos\TopLabsSpring2017\GradeBook\obj\Debug\GradeBook.csprojResolveAssemblyReference.cache
+C:\Users\Awet\Source\Repos\TopLabsSpring2017\GradeBook\obj\Debug\GradeBook.exe
+C:\Users\Awet\Source\Repos\TopLabsSpring2017\GradeBook\obj\Debug\GradeBook.pdb

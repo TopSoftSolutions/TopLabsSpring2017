@@ -40,6 +40,7 @@
     <Compile Include="GradeBook.cs" />
     <Compile Include="GradeBookType.cs" />
     <Compile Include="GradeStatistics.cs" />
+    <Compile Include="NameChangeDelegate.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

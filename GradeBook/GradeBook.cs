@@ -9,6 +9,7 @@ namespace GradeBookProject
 {
     public class GradeBook
     {
+        public NameCHangeDelegate NameChanged;
         private string _name;
 
         public string Name
@@ -21,6 +22,10 @@ namespace GradeBookProject
             {
                 if (!string.IsNullOrWhiteSpace(value))
                 {
+                    if (NameChanged != null)
+                    {
+                        NameChanged(_name, value);
+                    }
                     _name = value;
                 }
             }

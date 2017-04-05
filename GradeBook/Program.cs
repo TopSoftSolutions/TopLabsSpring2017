@@ -7,15 +7,18 @@ namespace GradeBookProject
         static void Main(string[] args)
         {
             GradeBook gb1 = new GradeBook(5);
-            gb1.Name = "Petros";
+            gb1.Name = "Mukuch";
             gb1.Type = GradeBookType.PhD;
             gb1.AddGrade(91);
             gb1.AddGrade(89.5f);
             gb1.AddGrade(75);
+            gb1.NameChanged = onNameChange;
+            gb1.NameChanged += onNameChange2;
+            gb1.Name = "Petros";
 
             GradeStatistics stats = gb1.CalcualteStatistics();
-            PrintValue("Average Grade", stats.AverageGrade);
-            PrintValue(nameof(stats.MaxGrade), stats.MaxGrade);
+         //   PrintValue("Average Grade", stats.AverageGrade);
+         //   PrintValue(nameof(stats.MaxGrade), stats.MaxGrade);
            
 
             gb1.Name = null;
@@ -30,9 +33,13 @@ namespace GradeBookProject
             Console.WriteLine($"{variableName}: {value:F3}");
         }
 
-        public static void PrintValue(string variableName, int value)
+        public static void onNameChange(string existingName, string newName)
         {
-            Console.WriteLine("{0}: {1}", variableName, value);
+            Console.WriteLine("Old: {0}, New: {1}", existingName, newName);
+        }
+        public static void onNameChange2(string existingName, string newName)
+        {
+            Console.WriteLine($"V2 Old: {existingName}, New: {newName}");
         }
 
     }
