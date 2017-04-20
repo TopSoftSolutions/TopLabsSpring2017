@@ -1,0 +1,6 @@
+c:\users\tigran\documents\visual studio 2017\Projects\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+c:\users\tigran\documents\visual studio 2017\Projects\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+c:\users\tigran\documents\visual studio 2017\Projects\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+c:\users\tigran\documents\visual studio 2017\Projects\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.csprojResolveAssemblyReference.cache
+c:\users\tigran\documents\visual studio 2017\Projects\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+c:\users\tigran\documents\visual studio 2017\Projects\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
