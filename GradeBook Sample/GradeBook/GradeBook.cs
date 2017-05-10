@@ -20,18 +20,16 @@ namespace GradeBookProject
             }
             set
             {
-                if (!string.IsNullOrWhiteSpace(value))
+                if (string.IsNullOrWhiteSpace(value))
                 {
-                    if (NameChanged != null)
-                    {
-                        NameChangedEventArgs args = new NameChangedEventArgs();
-                        args.OldName = _name;
-                        args.NewName = value;
-                        OnNameChanged(this , args);
-                    }
-             
-                    _name = value;
+                    throw new GradebookArgumentException("The provide value for property is invalid.", 100);
                 }
+
+                _name = value;
+                NameChangedEventArgs args = new NameChangedEventArgs();
+                args.OldName = _name;
+                args.NewName = value;
+                NameChanged(this, args);
             }
         }
 
@@ -39,7 +37,7 @@ namespace GradeBookProject
         public static int MaximumGrade = 100;
         public static int MinimumGrade = 0;
 
-        private List<float> grades;
+        public List<float> grades;
 
         public GradeBook()
         {
@@ -74,14 +72,6 @@ namespace GradeBookProject
             result.AverageGrade = sum / grades.Count;
 
             return result;
-        }
-
-        private void OnNameChanged(object sender, NameChangedEventArgs args)
-        {
-            GradeBook book = (GradeBook)sender;
-            GradeStatistics stats = book.CalcualteStatistics();
-
-            Console.WriteLine("Old: {0}, New: {1}, AverageGrade: {2}", args.OldName, args.NewName, stats.AverageGrade);
         }
     }
 }

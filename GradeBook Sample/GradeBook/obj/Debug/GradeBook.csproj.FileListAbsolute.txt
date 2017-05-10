@@ -10,3 +10,9 @@ C:\Users\Tigran\Source\Repos\TopLabsSpring2017\GradeBook\bin\Debug\GradeBookProj
 C:\Users\Tigran\Source\Repos\TopLabsSpring2017\GradeBook\obj\Debug\GradeBook.csprojResolveAssemblyReference.cache
 C:\Users\Tigran\Source\Repos\TopLabsSpring2017\GradeBook\obj\Debug\GradeBookProject.exe
 C:\Users\Tigran\Source\Repos\TopLabsSpring2017\GradeBook\obj\Debug\GradeBookProject.pdb
+C:\Users\Tigran\Source\Repos\TopLabsSpring2017\GradeBook Sample\GradeBook\bin\Debug\GradeBookProject.exe.config
+C:\Users\Tigran\Source\Repos\TopLabsSpring2017\GradeBook Sample\GradeBook\bin\Debug\GradeBookProject.exe
+C:\Users\Tigran\Source\Repos\TopLabsSpring2017\GradeBook Sample\GradeBook\bin\Debug\GradeBookProject.pdb
+C:\Users\Tigran\Source\Repos\TopLabsSpring2017\GradeBook Sample\GradeBook\obj\Debug\GradeBook.csprojResolveAssemblyReference.cache
+C:\Users\Tigran\Source\Repos\TopLabsSpring2017\GradeBook Sample\GradeBook\obj\Debug\GradeBookProject.exe
+C:\Users\Tigran\Source\Repos\TopLabsSpring2017\GradeBook Sample\GradeBook\obj\Debug\GradeBookProject.pdb
